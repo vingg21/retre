@@ -275,7 +275,7 @@ public:
         genesis.nNonce = 12346;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256());
+        //assert(hashGenesisBlock == uint256());
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -349,7 +349,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 11778;
-        assert(hashGenesisBlock == uint256());
+        //assert(hashGenesisBlock == uint256());
 
         bech32_hrp = "phrt";
 
