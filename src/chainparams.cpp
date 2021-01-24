@@ -174,7 +174,7 @@ public:
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
         genesis.nTime = 1611507453;
-        genesis.nBits = 0x1e0ffff0;;
+        genesis.nBits = 0x207fffff;;
         genesis.nNonce = 597442;
 
         hashGenesisBlock = genesis.GetHash();
